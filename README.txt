@@ -7,4 +7,5 @@ This file contains CSS for the hitchhiker search bar, a hitchhiker comment layou
 
 /scripts/w8r.js
 This is a script created to mimic the watch8 layout using YouTube's css and assets. It's made by members of the Goodtube community and works well for daily usage. 
+
 I'll add more files to this repo soon.
