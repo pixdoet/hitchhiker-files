@@ -1,4 +1,4 @@
-function createTemplate(videoTitle, videoDescription, videoViewCount, videoAuthor, authorLink, videoUploadDate) {
+function createTemplate(videoTitle, videoDescription, videoViewCount, videoAuthor, authorLink, videoUploadDate, commentCount) {
     var template = `<table id="mount" cellspacing="0" cellpadding="0" border="0" align="center">
     <tbody>
         <tr>
@@ -19,11 +19,11 @@ function createTemplate(videoTitle, videoDescription, videoViewCount, videoAutho
                     by
                     <a href="/channel/${authorLink}">${videoAuthor}</a>
                     //
-                    <a href="/channel/${authorLink}">Videos</a>
+                    <a href="/channel/${authorLink}/videos">Videos</a>
                     (0) |
-                    <a href="/channel/${authorLink}">Favorites</a>
+                    <a href="/channel/${authorLink}/playlists">Favorites</a>
                     (0) |
-                    <a href="/channel/${authorLink}">Friends</a>
+                    <a href="/channel/${authorLink}/channels">Friends</a>
                     (0)
                 </div>
 
@@ -31,7 +31,7 @@ function createTemplate(videoTitle, videoDescription, videoViewCount, videoAutho
                     Views:
                     ${videoViewCount}
                     |
-                    <a href="#comment">Comments</a>: 1
+                    <a href="#comment">Comments</a>: ${commentCount}
                 </div>
 
             </td>
