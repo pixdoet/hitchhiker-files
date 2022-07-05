@@ -9,7 +9,7 @@ function createTemplate(videoTitle, videoDescription, videoViewCount, videoAutho
                 <div class="watchAdded" style="margin-top: 5px;"></div>
                 </div>
                 <div class="watchTags">Tags //
-                    <a href="results.php?search=pangalengan">pangalengan</a>
+                    <a href="results?search=tobeadded">TBA soon...</a>
                     :
                 </div>
 
